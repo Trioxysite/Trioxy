@@ -1,0 +1,90 @@
+nav.menu-nav ul li.btn{
+	display: inline-block;
+	list-style-type: none;
+}
+/* Boutons */
+nav.menu-nav ul li.btn a{
+	color: rgb(255, 255, 255);
+	background-color: blueviolet;
+	text-decoration: none;
+	font-size: 30px;
+	padding: 8px;
+	font-size: 50px;
+}
+nav.menu-nav ul li.btn:hover a{
+	background-color: rgb(192, 166, 218);
+	transition: 0.7s all;
+}
+
+.menu {
+	display: flex;
+	justify-content: center;
+}
+h1{ font-size: 60px;
+}
+
+
+
+
+/* Contenue */
+
+	
+
+#Contenue div{
+	display: inline-block;
+	width: 49%;
+	color: black;
+}
+
+#Contenue div.leftbox{
+	vertical-align: top;
+}	
+#Contenue div.annonce{
+	background-color: rgb(255, 255, 255);
+	width: 100%;
+	margin: 10px;
+}
+.annonce img{
+	border-radius: 50%;
+}
+#Contenue div h1, p, iframe{
+	margin: 20px;
+}
+
+#Contenue div.rightbox{
+	background-color: rgb(240, 240, 240);
+	
+}
+
+
+
+
+/* Haut */
+header{
+	background-color: rgb(199, 0, 172);
+
+}
+
+header h1{
+	color: white;
+	text-align: center 
+	
+}
+
+
+
+
+/* Bas */
+footer{
+	background-color: rgb(255, 249, 249);
+	
+}
+
+p{
+	color: rgb(0, 0, 0);
+	font-style: italic;
+	font-size: 25px;
+}
+body{
+	background-color: hsl(185, 20%, 68%);
+}
